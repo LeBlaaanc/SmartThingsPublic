@@ -5,6 +5,7 @@ metadata {
 		capability "Actuator"
 		capability "Sensor"
 		capability "Battery"
+		capability "Door Control"
 
 		attribute "status", "string"
 		attribute "buttonPress", "string"
